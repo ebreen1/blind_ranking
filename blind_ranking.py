@@ -156,5 +156,5 @@ prob_win_rate, prob_avg_score = test_strategy(prob_strat, num_games)
 
 print(f"Win rate of '10s place' strategy in {num_games} games: {tens_win_rate}")
 print(f"Average score of '10s place' strategy in {num_games} games: {tens_avg_score}")
-print(f"Win rate of '10s place' strategy in {num_games} games: {tens_win_rate}")
+print(f"Win rate of probability strategy in {num_games} games: {prob_win_rate}")
 print(f"Average score of probability strategy in {num_games} games: {prob_avg_score}")
