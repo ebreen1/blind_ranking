@@ -15,13 +15,13 @@ If you place all 10 numbers, you win.
 <ul>
   <li>"Tens" strategy: Place each number N based on the digits in the tens place of N-1 (so 1-10 go in rank 1, 11-20 go in rank 2, etc.). If that rank is taken, take the closest available one (go up if the number already there is less than the new number, down if it's greater) 
   <ul>
-    <li> Win rate: 18.04% </li>
+    <li> Win rate: 1.804% </li>
     <li> Average score: 5.828 </li>
   </ul>
   </li>
   <li>Probability strategy: When given a number, calculate the probability that it will fall into each rank, assuming that all previous numbers have been placed correctly. Choose the rank with the highest probability. 
   <ul>
-    <li> Win rate: 21.32% </li>
+    <li> Win rate: 2.132% </li>
     <li> Average score: 6.032 </li>
   </ul>
   </li>
